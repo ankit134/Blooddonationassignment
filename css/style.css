@@ -1,0 +1,683 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar {
+    display: flex;
+    position: relative;
+    height: 43px;
+}
+
+#navbar::before {
+    content: "";
+    
+   
+    background-color: white;
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+#navbar .logos img {
+
+    height: 43px;
+    padding-left: 212px;
+
+
+}
+
+#navbar .rightnav img {
+
+    padding-top: 7px;
+    height: 30px;
+
+    padding-left: 584px;
+}
+
+#navbar .any {
+    display: inherit;
+}
+
+
+#navbar .list {
+    /* padding-top: 7px; */
+    font-size: 0.9rem;
+    display: inherit;
+
+
+
+}
+
+#navbar li {
+
+
+    padding: 13px 13px;
+    list-style: none;
+
+}
+
+#navbar li a {
+
+    text-decoration: none;
+
+}
+
+#navbar .any p {
+    padding: 10px 38px;
+    color: red;
+
+
+}
+
+
+/* level2 home-section */
+
+
+.home1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    padding: 144px 188px;
+}
+
+
+#home-a {
+    position: relative;
+    height: 700px;
+}
+
+#home-a::before {
+    content: "";
+    background: url("/homephotos/street.jpg") center center/cover;
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+
+.home1 .list2 {
+    font-size: 0.8rem;
+    color: white;
+    padding: 23px 34px;
+
+}
+
+.home1 .list2 a {
+    text-decoration: none;
+    color: white
+}
+
+.home1 p {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 3.4rem;
+    padding: 10px 12px;
+}
+
+.home1 .btn {
+    /* padding: 10px 40px; */
+    border: 2.5px solid red;
+    border-radius: 10px;
+    background-color: red;
+    width: 24%;
+    height: 46px;
+    color: white;
+}
+
+/* Active section ---------------------------- */
+
+
+#container {
+
+    margin: 66px 134px;
+    display: flex;
+
+}
+
+#container .box {
+    border: 1px solid #DDD6D6;
+    padding: 26px;
+}
+
+
+#container .box img {
+    margin-left: 6%;
+    height: 38px;
+
+}
+
+#container .box h2 {
+    padding-left: 5%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#container .box p {
+
+    font-size: smaller;
+    padding: 6%;
+  
+}
+
+#container .box .circular-sq {
+    border-radius: 50%;
+}
+
+/* Help section */
+
+#help-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    margin: 10px;
+
+
+}
+
+#help-section .image {
+    background: url(/homephotos/larm-rmah-AEaTUnvneik-unsplash.jpg) center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+#help-section .image-overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+
+}
+
+#help-section .image-overlay p {
+    text-align: center;
+    margin: 73px;
+    padding: 32px;
+}
+
+#help-section .image-overlay h1 {
+    margin-top: 59px;
+    font-size: 2.8rem;
+}
+
+#help-section .image-overlay .btn {
+    width: 26%;
+    padding: 11px;
+    border-radius: 14px;
+
+    background-color: white;
+    color: red;
+    margin-left: 463px;
+}
+
+
+
+/* help-matter section ---------------------------- */
+#support-cause {
+    position: relative;
+    height: 80vh;
+}
+
+#support-cause::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(240, 240, 240);
+    ;
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+
+#help-matter #image1 {
+    display: flex;
+
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+
+#help-matter #image1 .jar img {
+    height: 129px;
+    padding-top: 9px;
+}
+
+#help-matter #image1 p {
+    padding-top: 40px;
+
+}
+
+/* Support cause */
+#support-cause .box {
+    display: flex;
+
+
+    margin: 40px;
+    /* padding: 73px; */
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+#support-cause .box .image2 img {
+    height: 285px;
+}
+
+#support-cause .box .item {
+
+    height: 41.6vh;
+    background-color: white;
+}
+
+#support-cause .box .container {
+    display: flex;
+    margin-top: 7px;
+    border-top: 2px solid red;
+}
+
+#support-cause .box .item h2 {
+    margin-top: 9px;
+
+
+    margin-left: 22px;
+
+}
+
+#support-cause .box .item img {
+    height: 278px;
+
+}
+
+#support-cause .box .item .container .green img {
+    height: 143px;
+
+
+}
+
+#support-cause .box .item .container .green {
+
+    padding: 15px;
+}
+
+#support-cause .box .item .container .green .btn1 {
+    margin-top: 6px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+/* Donation Sec ---------------------------*/
+#donation-sec .image3 {
+    width: 100%;
+    height: 95vh;
+    background-image: url(/homephotos/crowd2.jpeg);
+
+}
+
+#donation-sec .image-overlay3 {
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(255, 0, 0, 0.2)
+}
+
+#donation-sec .image-overlay3 .box {
+    display: flex;
+   
+    justify-content: center;
+    height: 99vh;
+    padding-top: 70px;
+    
+}
+#donation-sec .image-overlay3 .box .content {
+    width: 38%;
+   
+    
+}
+#donation-sec .image-overlay3 .box .content h1{
+    margin-top: 36px;
+    color: white;
+}
+#donation-sec .image-overlay3 .box .content h5{
+    color: white;
+}
+
+#donation-sec .image-overlay3 .box .content p{
+    color: white;
+}
+
+
+#donation-sec .image-overlay3 .box .content img {
+    height: 50px;
+}
+
+#donation-sec .image-overlay3 .box .content .circular {
+    border-radius: 20%;
+}
+
+#donation-sec .image-overlay3 .box .content .bank-imagelist{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+#donation-sec .image-overlay3 .box .content .bank-image {
+    display: flex;
+   
+    margin-top: 23px;
+    
+    
+}
+
+#donation-sec .image-overlay3 .box .content .bank-image p {
+    margin: 15px;
+}
+
+#donation-sec .image-overlay3 .box .green {
+    
+    background-color: white;
+    border-radius: 11px 11px 0px 0px;
+    width: 40%;
+    height: 85vh;
+}
+
+#donation-sec .image-overlay3 .box .green h2{
+    padding-left: 25px;
+padding-top: 26px;
+}
+#donation-sec .image-overlay3 .box .green h4{
+    padding-left: 25px;
+padding-top: 7px;
+}
+
+
+#donation-sec .image-overlay3 .green .currency {
+    display: flex;
+    padding-left: 16px;
+}
+
+#donation-sec .image-overlay3 .box .green .currency-container {
+    display: flex;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 27%;
+    justify-content: center;
+
+}
+
+#donation-sec .image-overlay3 .box .green .currency-container img {
+
+    margin: 3px;
+}
+
+#donation-sec .image-overlay3 .box .green .currency-container h6 {
+    margin: 4px;
+    font-size: 1rem;
+}
+#donation-sec .image-overlay3 .box .green .currency-container img {
+    height: 21px;
+}
+
+#donation-sec .image-overlay3 .box .green .currency1 {
+    display: flex;
+    padding-left: 19px;
+
+}
+
+#donation-sec .image-overlay3 .box .green .currency-container1 {
+    display: flex;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 17%;
+}
+#donation-sec .image-overlay3 .box .green .currency-container2 {
+    padding-left: 19px;
+} 
+
+#donation-sec .image-overlay3 .box .green .currency-container1 img {
+    height: 17px;
+}
+
+#donation-sec .image-overlay3 .box .green .payment {
+    display: flex;
+    padding-left: 16px
+}
+
+#donation-sec .image-overlay3 .box .green .payment .payment-container {
+    margin: 7px;
+    width: 30%;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+}
+
+
+#donation-sec .image-overlay3 .box .green .payment .payment-container img {
+    height: 70px;
+    margin: auto;
+    display: block;
+}
+
+#donation-sec .image-overlay3 .box .green .payment-container1 {
+   
+    border: 1px solid #ececec;
+    margin-left: 22px;
+width: 29%;
+border-radius: 5px;
+}
+
+#donation-sec .image-overlay3 .box .green .payment-container1 img {
+    height: 70px;
+    margin: auto;
+    display: block;
+}
+
+#donation-sec .image-overlay3 .box .green .btn2 {
+    
+    width: -moz-available;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 13px;
+    border: 1px solid red;
+    margin: 21px;
+}
+
+
+/* Blog section----------------------------------- */
+#blog .blog-container{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#blog .box1{
+    border: 1px solid #ececec;
+    margin: 24px;
+    
+    width: min-content;
+}
+#blog .blog-container .box1 p{
+    font-size: small;
+}
+
+#blog .box1 img{
+    height: 165px;
+   
+}
+
+#blog .box1 .annoucement{
+    padding: 7px;
+    display: flex;
+
+}
+
+#blog .box1 h5,p{
+    padding: 7px;
+}
+
+#blog .box1 .annoucement li{
+    margin-left: 25px;
+    
+}
+#blog .box1 .annoucement ul{
+    font-size: smaller;
+    list-style: none;
+}
+
+#blog .box1 .annoucement ul li::before{
+   
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: red; /* Change the color */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  margin-top: 0.5em;
+        
+}
+
+
+
+/* Footer Section----------------- */
+#footer{
+    position: relative;
+    height: 400px;
+    
+}
+
+#footer::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(43, 42, 42);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#footer .footer-container{
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 2px solid yellow; */
+}
+
+#footer .footer-container .footer-box{
+    display: flex;
+    border-bottom:  1px solid rgb(212, 209, 209);
+    padding: 0px 38px 28px 38px;
+    margin-top: 40px;
+
+}
+
+#footer .footer-container .footer-box p{
+    font-size: smaller;
+}
+
+#footer .footer-container .footer-box .footer-btn{
+    background-color: red;
+}
+
+#footer .footer-container .footer-box img{
+    height: 31px;
+    margin-top: 7px;
+}
+
+#footer .footer-container .footer-box .footer-contact{
+    margin-left: 10px;
+}
+#footer .footer-container .footer-box .footer-btn{
+    margin: 3px;
+     padding: 8px 36px 8.5px 36px;
+     border: 2px solid red;
+     border-radius: 3px;
+}
+
+#footer .footer-container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    margin-left: 82px;
+}
+
+#footer .footer-container2 .footer-box2 p{
+    font-size: smaller;
+    width: 69%;
+    
+
+}
+#footer .footer-container2 .footer-box2 .footer-image {
+    display: flex;
+}
+
+#footer .footer-container2 .footer-box2 .footer-image img{
+    height:25px;
+    padding-left: 7px;
+}
+
+#footer .footer-container2 .footer-box2 .footer-image2 img{
+    height: 20px;
+    
+    margin-left: 7px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility class */
+.center {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.h-secondary {
+    font-size: 1.2rem;
+}
+
+.white{
+    color: white;
+}
